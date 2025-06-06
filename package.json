@@ -1,0 +1,16 @@
+{
+  "name": "7k-momentum-swap-bot",
+  "version": "1.0.0",
+  "description": "Automated swap bot for 7K.ag with momentum routing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@7kprotocol/sdk-ts": "^latest",
+    "@mysten/sui.js": "^0.50.0",
+    "dotenv": "^16.0.3",
+    "axios": "^1.6.0",
+    "winston": "^3.11.0"
+  }
+}
